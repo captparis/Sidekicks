@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15E65" minimumToolsVersion="Xcode 7.0">
+    <entity name="PetEntity" representedClassName="Sidekicks.Pet" syncable="YES">
+        <attribute name="petBreed" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="petFavActivity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="petName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="petStatus" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Photo" representedClassName="Sidekicks.Photo" syncable="YES">
+        <attribute name="liked" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="photoImage" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="photoName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="UserEntity" representedClassName="User" syncable="YES">
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="PetEntity" positionX="-45" positionY="18" width="128" height="105"/>
+        <element name="UserEntity" positionX="-63" positionY="-18" width="128" height="75"/>
+        <element name="Photo" positionX="-54" positionY="27" width="128" height="90"/>
+    </elements>
+</model>
